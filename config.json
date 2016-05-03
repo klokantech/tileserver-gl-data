@@ -1,0 +1,41 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "glyphs",
+      "sprites": "sprites",
+      "styles": "styles",
+      "mbtiles": "data"
+    },
+    "formatEncoding": {
+      "png": 6,
+      "jpeg": 80,
+      "webp": 90
+    }
+  },
+  "styles": {
+    "test": {
+      "style": "bright-v8.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [8.44806, 47.32023, 8.62537, 47.43468]
+      }
+    },
+    "hybrid": {
+      "style": "satellite-hybrid-v8.json",
+      "serve_rendered": false
+    },
+    "streets": {
+      "style": "streets-v8.json",
+      "serve_data": false,
+      "tilejson": {
+        "center": [8.536715, 47.377455, 14]
+      }
+    }
+  },
+  "data": {
+    "zurich-vector": {
+      "mbtiles": "zurich.mbtiles"
+    }
+  }
+}
