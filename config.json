@@ -18,18 +18,20 @@
       "style": "bright-v8.json",
       "tilejson": {
         "type": "overlay",
-        "bounds": [8.44806, 47.32023, 8.62537, 47.43468]
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
       }
     },
     "hybrid": {
       "style": "satellite-hybrid-v8.json",
-      "serve_rendered": false
+      "tilejson": {
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
+      }
     },
     "streets": {
       "style": "streets-v8.json",
       "serve_data": false,
       "tilejson": {
-        "center": [8.536715, 47.377455, 14]
+        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
       }
     }
   },
