@@ -14,23 +14,17 @@
     }
   },
   "styles": {
-    "test": {
-      "style": "bright-v8.json",
+    "bright": {
+      "style": "bright-v9.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
       }
     },
-    "hybrid": {
-      "style": "satellite-hybrid-v8.json",
+    "basic": {
+      "style": "basic-v9.json",
       "tilejson": {
-        "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
-      }
-    },
-    "streets": {
-      "style": "streets-v8.json",
-      "serve_data": false,
-      "tilejson": {
+        "type": "overlay",
         "bounds": [8.529446, 47.364758, 8.55232, 47.380539]
       }
     }
